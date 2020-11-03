@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500&family=Roboto:wght@700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.team {
+  background: #ffffff;
+}
+
+.inner {
+  max-width: 1155px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  &__heading {
+    
+  }
+  }
+ .text {
+
+ }
