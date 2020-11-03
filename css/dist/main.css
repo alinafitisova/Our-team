@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500&family=Roboto:wght@700&display=swap");
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
 .team {
   background: #ffffff;
+  text-transform: uppercase;
 }
 
 .inner {
@@ -15,4 +13,107 @@ font-family: 'Roboto', sans-serif; */
 .header {
   display: flex;
   flex-direction: column;
+}
+.header__heading {
+  font-size: 18px;
+  color: #898f8f;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  margin: 100px 0 20px 0;
+}
+.header__title {
+  color: #ffcc00;
+  font-size: 60px;
+  margin: 0 0 45px 0;
+}
+
+/* ---------team body --------*/
+.team__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.descroption-team__title {
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  margin: 0 0 33px 0;
+  padding-bottom: 35px;
+  position: relative;
+}
+.descroption-team__title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: #ffcc00;
+  position: absolute;
+  bottom: 0;
+  right: 164px;
+}
+
+.descroption-team__title,
+.descroption-team__position {
+  text-transform: none;
+  color: #666666;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.descroption-team__position {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0 0 33px 0;
+}
+
+.descroption-team__social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 135px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.descroption-team__radius50 {
+  border: 2px solid #cccccc;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+}
+
+.descroption-team__icon {
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  color: #cccccc;
+  padding-top: 5px;
+}
+
+.descroption-team__text {
+  text-transform: none;
+  color: #333333;
+  font-size: 14px;
+  line-height: 24px;
+  max-width: 420px;
+}
+
+.descroption-team__btn {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  color: #666666;
+  border: 1px solid #ffcc00;
+  padding: 6px 12px;
 }
